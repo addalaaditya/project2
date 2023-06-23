@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Hotel Booking Website</title>
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custome css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- header section starts -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>H</span>otel Booking </a>
+        <nav class="navbar">
+             <a href="#home">home</a>
+             <a href="#packages">packages</a>
+             <a href="#services">services</a>
+             <a href="#gallery">gallery</a>
+             <a href="#review">review</a>
+             <a href="#book">book</a>
+             <a href="#footer">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+<!-- header section ends -->
+
+<!-- login form container -->
+
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+         <h3>Login</h3>
+         <input type="email" class="box" placeholder="Enter your Mail">
+         <input type="password" class="box" placeholder="Enter your Password">
+         <input type="submit" value="Login now" class="btn">
+         <input type="checkbox" id="remember">
+         <label for="remember">Remember Me</label>
+         <p>Forgrt password? <a href="#">click here</a></p>
+         <p>Don't have and account? <a href="#">register now</a></p>
+    </form>
+</div>
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>welcome to A global icon of luxury</h3>
+    
+    </div>
+
+    <div class="video-container">
+        <video src="vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+
+<!-- home section ends -->
+
+
+
+<!-- packages section starts -->
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+        
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="https://r1imghtlak.mmtcdn.com/afd1b9bea13411ed9d810a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Sri Pranams Royal Grand    -     Balusumoodi </h3>
+                <p>It is a 4-star property located in BVRM. It offers room service and a 24-hour front desk.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">₹ 1,739<span>₹ 2,000</span></div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src=" https://r1imghtlak.mmtcdn.com/c3c95bc2898111e8999d02740dfe4c38.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Susheel's Nest-HB Colony </h3>
+                <p>Hotel Susheel's Nest in Bhimavaram Bazar has a wide range of products and services to cater to the varied requirements of their customersy.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹ 1,658 <span>₹ 1,800</span></div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://r1imghtlak.mmtcdn.com/302cc8d8516111e989b30242ac110005.jfif?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg&downsize=821:550&crop=821:550" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Green View-Seesali</h3>
+                <p>Hotel Green View International provides aminities like banquet halls,swimming pools,rome services,etc. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹ 1,674<span>₹ 1,800</span></div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://r1imghtlak.mmtcdn.com/3515faa241ae11eab9f60242ac110003.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,3&output-format=jpg&downsize=821:550&crop=821:550" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Sri Pranams International-PP Road</h3>
+                <p>Sri Pranams International Hotel in Bhimavaram,Celebrated as one of the city's best Hotel in Bhimavaram.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹ 1,800<span>₹ 2,500</span></div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/b5/4c/20/from-the-main-road-outside.jpg?w=1200&h=-1&s=1" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Ananda Inn-JP Road</h3>
+                <p> Ananda inn Business Centre has Internet Access,Children Activities like Swimming,Scatting(Kid / Family Friendly),Banquet hall,etc.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">₹ 2,000.00 <span>₹ 2,200.00</span></div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/88/58/3e/falcons-nest-hotel.jpg?w=1200&h=-1&s=1" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Falcons Nest-Undi Road</h3>
+                <p>Falcons Nest Hotel aims to make your visit as relaxing and enjoyable as possible.It's So Nice.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">₹ 1,700 <span>₹ 1,800</span></div>
+                <a href="#book" class="btn">Book Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- packages section ends -->
+
+<!-- services section starts -->
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+                <h3>Food and Drinks</h3>
+                <p>Complimentary Tiffins </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-ambulance"></i>
+                <h3>Safety</h3>
+                <p>Doctor on call</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-wifi"></i>
+                <h3>Wifi</h3>
+                <p>Free</p>
+        </div>
+        
+</section>
+
+
+<!-- services section ends -->
+
+<!-- gallery section starts -->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+
+<div class="box-container">
+    <div class="box">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/88/59/ea/falcons-nest-hotel.jpg?w=700&h=-1&s=1" alt="">
+        <div class="content">
+            <h3>Amazing place</h3>
+            <p>Places to sit and meet.</p>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/8b/e2/a4/falcons-nest-hotel.jpg?w=300&h=-1&s=1" alt="">
+        <div class="content">
+            <h3>Amazing place</h3>
+            <p>Receptions.</p>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_600,q_auto,w_600//itemimages/49/85/4985306.jpeg" alt="">
+        <div class="content">
+            <h3>Amazing place</h3>
+            <p></p>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGYU7LfqzBlS8_5J_MCpKci9H31bGEYZYWww&usqp=CAU" alt="">
+        <div class="content">
+            <h3>Amazing place</h3>
+            <p></p>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTVYJUd8I1P7i9Iv5rbVfxbvFcOo2UEpaUDQ&usqp=CAU" alt="">
+        <div class="content">
+            <h3>Amazing place</h3>
+            <p></p>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ71AcKDr-skOhE0TY5w5TiJsDV9zuj84gjw&usqp=CAU" alt="">
+        <div class="content">
+            <h3>Amazing place</h3>
+            <p></p>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    
+   
+</div>
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section start -->
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>R</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+        <span>s</span>
+    </h1>
+    <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmRqiBz_ml4I4Ka83SeJF4K3ddpBNgcyj6aY9yKutqJb6Rw2Ex56CaqqXhs6GJRSml4SE&usqp=CAU" alt="">
+                    <h3>Swaroop</h3>
+                    <p>There is no good hotel at Bhimavaram,a small town known for it’s fisheries
+                         and aqua-culture.Though business activities have picked up hugely in last 
+                         10-12 years but no good hotel has come up.Ananda Inn is one hotel which is
+                          </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRAW4gAGq5MWxSokwQnxWKbcmJ18SiM-bwZA&usqp=CAU" alt="">
+                    <h3>Shekar</h3>
+                    <p>I stopped at this place with my in-laws. There was a language barrier for me
+                         (I don’t speak Telugu), so I’m not sure what happened. I can’t handle Andhra 
+                         spice, so my brother in law repeatedly communicated that to the server. 
+                         .</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH9EZ3zb-GSp6kMlvP4wJk5Qesr8ITeqRRUA&usqp=CAU" alt="">
+                    <h3>Tuffy</h3>
+                    <p>Taste of the food is marvelous and I enjoyed the food very much. I became 
+                        the fan after eating the food here.I regularly visit this hotel along with
+                         my friends and family and enjoyed as much as possible</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUeuIma1L9BUz024vF57OEANrLi5FoB8-ClA&usqp=CAU" alt="">
+                    <h3>Varun</h3>
+                    <p>Do not expect too much from this hotel to a westerners standards.
+                         no refrigerator. wifi works sparingly. staff barely knows English.
+                          moth balls in room give very unpleasant odor. only get the suites
+                           </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+                </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<!-- review section ends -->
+
+<!-- contact section starts -->
+
+<!-- contact section ends -->
+
+<!-- brand section -->
+
+<section class="brand-container">
+    <div class="swiper mySwiper brand-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/6.jpg" alt=""></div>
+        </div>
+    </div>
+</section>
+
+<!-- book section starts -->
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>B</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <form action="submit.php" method="POST">
+              <div class="inputBox">
+                  <input type="text" name="customername" placeholder="Customer Name" required>
+              </div>
+              <div class="inputBox">
+				  <select name="location"  required>
+						<option>Place Name</option>
+						<option value="1">Hotel Sri Pranams Royal Grand (Balusumoodi) - Rs 1739.00 per day</option>
+						<option value="2">Hotel Susheel's Nest In (Narasayya Aagraharam) - Rs 1658.00 per day</option>
+						<option value="3">RAM Residency (DNR Road) - Rs 1674.00 per day </option>
+						<option value="4">SRI Pranams International Hotel (P P Road) - Rs 1800.00 per day</option>
+						<option value="5">Ananda Inn (J P Road) - Rs 2000.00 per day</option>
+						<option value="6">Falcons Nest Hotel Falcons (Undi Road) - Rs 1700.00 per day</option>
+				  </select>
+              </div>
+              <div class="inputBox">
+                <input type="number" min="0" name="adults"  placeholder="Number of Adults" required>
+            </div><div class="inputBox">
+                <input type="number" min="0" name="childs"  placeholder="Number of Child" required>
+            </div>
+            <div class="inputBox">
+                <h3>Check-In</h3>
+                <input type="date" name="checkin" required>
+            </div>
+            <div class="inputBox">
+                <h3>Check-Out</h3>
+                <input type="date" name="checkout" required>
+            </div>
+            <input type="Submit" class="btn" value="Book now">
+        </form>
+    </div>
+</section>
+<!-- book section ends -->
+
+<!-- footer section -->
+
+<section class="footer" id="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Contact us</h3>
+			<a href="mailto:xyz@gmail.com" style="text-transform:initial;">teja19038@gmail.com</a>
+            <a href="tel:919866555555">+91- 9491456888</a>
+        </div>
+        <div class="box">
+            <h3>Our Locations</h3>
+            <a href="#">Balusumoodi</a>
+            <a href="#">Narasayya Aagraharam</a>
+            <a href="#">DNR Road</a>
+            <a href="#">P P Road</a>
+            <a href="#">J P Road</a>
+            <a href="#">Undi Road</a>
+        </div>
+        <div class="box">
+            <h3>Quick links</h3>
+             <a href="#home">home</a>
+             <a href="#packages">packages</a>
+             <a href="#services">services</a>
+             <a href="#gallery">gallery</a>
+             <a href="#review">review</a>
+             <a href="#book">book</a>
+             <a href="#footer">contact</a>
+        </div>
+    </div>
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custome js file link -->
+    <script src="main.js"></script>
+</body>
+</html>

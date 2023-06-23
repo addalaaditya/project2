@@ -1,0 +1,51 @@
+<html>
+<body>
+<script>
+function validateform(){
+var name=document.myform.name.value;
+var email=document.myform.email.value;
+var phone=document.myform.phone.value;
+var password=document.myform.password.value;
+var confirmpassword=document.myform.confirmpassword.value;
+if (name === "") {
+    alert("Please enter your username.");
+    return;
+  }
+if(email == ""){
+alert("Please enter your email.");
+return;
+}
+if (phone==""){
+alert("PLease enter your phone number.");
+return;
+}
+if (phone.length!=10){
+alert("Please enter valid phone number.");
+return;
+}
+  if (password === "") {
+    alert("Please enter your password.");
+    return;
+  }
+if(password.length<6){
+alert("Password must contain atleats 6 characters");
+return;
+}
+  if (confirmpassword === "") {
+    alert("Please enter your password.");
+    return;
+  }
+if(password!=confirmpassword){
+alert("Passwords do not match");
+return;
+}
+};
+</script>
+<form name="myform" onsubmit="return validateform()">
+Name:<input type="text" name="name"><br>
+Email:<input type="email" name="email"><br>
+Phone Number:<input type="number" name="phone"><br>
+Password:<input type="password" name="password"><br>
+Confirm-Password:<input type="password" name="confirmpassword"><br>
+<input type="submit" value="login">
+</form></body></html>
